@@ -1,0 +1,144 @@
+.pictureonthecenter{
+    border-radius: 8px;
+    width: 10rem ;   
+}
+.container {
+    display: flex;
+  flex-direction:row;
+  background : #C1A7A7;
+  font-family: Arial, sans-serif;
+    color: #493737; 
+}
+.container2 {
+  display: flex;
+  flex-direction:row;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #493737; 
+  font-size: 19px;
+  }
+
+.item1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #493737;
+}
+.left{
+    width: 200px;
+    min-height: 100vh;
+    background : #C1A7A7;
+    text-align: center;
+ }
+.footer{
+     background : #C1A7A7;
+     min-height: 8vh;
+}
+.container5{
+    background : #C1A7A7;
+    border-radius: 20px;
+    margin: 2% 10% 3% 10%;
+    font-family: Arial, sans-serif;
+    color: #493737;   
+}
+.text{
+ text-align: center;
+ font-size: 130%;
+}
+.table {
+	width: 100%;
+	border: none;
+    font-size: 19px;
+}
+.table thead th {
+	padding: 10px;
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 20px;
+	text-align: left;
+	color: #493737;	
+}
+.table tbody td { 
+    padding: 10px; 
+    font-size: 19px; 
+    line-height: 20px; 
+    color: #493737; 
+    border-top: 1px solid #716561; 
+    border-right: solid 1px #716561; 
+    border-left: solid 1px #716561;     
+   }
+body{
+	background-color:#DACECA
+}
+p { 
+    text-indent: 20px; 
+}
+@media (max-width:576px) and (max-width: 900px){
+  
+    body{
+        font-size: 10px;
+
+    } 
+    .pictureonthecenter{
+        border-radius: 8px;
+        width: 8rem ;   
+    }
+    .container {
+        display: flex;
+      flex-direction:row;
+      background : #C1A7A7;
+      font-family: Arial, sans-serif;
+        color: #493737; 
+    }
+    .un { 
+    display:none;
+    }
+    .footer{
+        background : #C1A7A7;
+        min-height: 8vh;
+   }
+   .container2 {
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    color: #493737; 
+    font-size: 16px;
+    }
+    .item1{
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color: #493737;
+        font-size: 16px;
+    }
+    .table {
+        width: 100%;
+        border: none;
+        font-size: 19px;
+    }
+    .container5{
+        background : #C1A7A7;
+        border-radius: 20px;
+        margin: 15% 0% 20% 0%;
+        font-family: Arial, sans-serif;
+        color: #493737;   
+    }
+    .table thead th {
+        padding: 10px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: left;
+        color: #493737;	
+    }
+    .table tbody td { 
+        padding: 10px; 
+        font-size: 17px; 
+        line-height: 20px; 
+        color: #493737;      
+       }
+       p { 
+        text-indent: 5px; 
+        font-size: 16px;
+        margin: 0px 10px 10px 0px;
+    }
+  }
